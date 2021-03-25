@@ -1,0 +1,62 @@
+{
+    "header": {
+        "name": "Oscar Soccol",
+        "job": "Web Developer",
+        "line1": "Dedicated to",
+        "link1": "good web practices",
+        "line2": "Acting for",
+        "link2": "sustainable digital technology",
+        "colors": "Contrasted colors",
+        "lang": "Language",
+        "audio": "Audio description"
+    },
+    "technos": {
+        "title": "Technologies",
+        "tech1": "TypeScript",
+        "fram1": "Angular",
+        "content1_0": "Open-source language built on JavaScript, the most widely used language on the Web.",
+        "content1_1": "Angular enables the creation of web applications that makes the UX more fluid thanks to excellent data and event management.",
+        "tech2": "Java",
+        "fram2": "Spring",
+        "content2_0": "Since 1995 Java is everywhere and has influenced a large amount of languages. By mastering Java I am able to program in any object oriented language.",
+        "content2_1": "Spring framework is perfect to lighten the Java code, especially to configure environments and manage data.",
+        "tech3": "Bootstrap",
+        "fram3": "",
+        "content3_0": "Extremely popular in recent years in the developer community, Bootstrap saves coding time on the visual aspect.",
+        "content3_1": "Perfectly suited for JavaScript, I've been using it for over a year. Associated with Angular it makes the code lighter which facilitates the reading and the maintainability of the components."
+    },
+    "experiences": {
+        "title": "Experiences",
+        "company1": "Elis",
+        "mission1": "GLAD - Global Logistics Assistance for Deliveries",
+        "content1": "Global range application, micro-services architecture, 3M requests per day, Postrgres database, cartographic monitoring",
+        "company2": "Groupe HN",
+        "mission2": "",
+        "content2": "2 years of collaboration with the HN Group to which I owe my success. The projects with the company allowed me to develop my skills and apply my academic knowledges."
+    },
+    "practices": {
+        "title": "Good Practices",
+        "subject1": "Code Standards",
+        "content1": "Writing and maintaining a code standards file are fundamental for sharing code with a team or for next developers.",
+        "subject2": "Code Review",
+        "content2": "1 h/week of code review is enough to identify on average 65% of persistent faults.",
+        "subject3": "Automatized Tests Strategy",
+        "content3": "TDD or BDD, the important thing is to have a testing strategy that fully covers your code. This improves the quality of the code and its maintainability."
+    },
+    "responsible": {
+        "title": "Green IT",
+        "content1": "It aims to reduce the ecological and social footprint of information technologies.",
+        "content2": "10% of the electricity produced in the world is consumed by digital technology. In this age of streaming, automatic emails and data collection, we need to act to limit its impact." ,
+        "content3": "This will require a change in mentalities and a reorganization of digital services which will tend to be more sober and more accessible.",
+        "button": "Read More"
+    },
+    "contact": {
+        "title": "Contact Me For",
+        "line1": "Better code solutions",
+        "line2": "Exciting proposals",
+        "line3": "Original challenges",
+        "email": "oscar.soccol@gmail.com",
+        "phone": "06.47.02.29.80",
+        "linkedIn": "LinkedIn"
+    }
+}

@@ -1,0 +1,16 @@
+/** Add fade-in class to an element to make it appear **/
+.fade-in {
+  animation: appear 5s forwards;
+  animation-timing-function: ease-in;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/*# sourceMappingURL=animations.css.map */

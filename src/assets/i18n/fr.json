@@ -1,0 +1,62 @@
+{
+    "header": {
+        "name": "Oscar Soccol",
+        "job": "Développeur Web",
+        "line1": "Investi dans les",
+        "link1": "bonnes pratiques du web",
+        "line2": "Agissant pour un",
+        "link2": "numérique responsable",
+        "colors": "Contraste de couleurs",
+        "lang": "Langage",
+        "audio": "Audio description"
+    },
+    "technos": {
+        "title": "Technologies",
+        "tech1": "TypeScript",
+        "fram1": "Angular",
+        "content1_0": "Langage open-source construit sur les bases de JavaScript, le langage le plus répandu sur le Web.",
+        "content1_1": "Angular permet la création d'applications Web fluidifiant l'expérience utilisateur grâce à une excellente gestion des données et des évènements.",
+        "tech2": "Java",
+        "fram2": "Spring",
+        "content2_0": "Présent depuis 1995, le Java est partout et a influencé un bon nombre de langages. En maîtrisant le Java je suis apte à programmer dans tout langage orienté objet.",
+        "content2_1": "Pour alléger le code Java, le framework Spring est idéal notamment pour la configuration des environnements et la gestion de la data.",
+        "tech3": "Bootstrap",
+        "fram3": "",
+        "content3_0": "Extrêmement populaire ces dernières années dans la communauté des développeurs, Bootstrap permet d'économiser du temps sur l'aspect visuel.",
+        "content3_1": "Parfaitement adapté pour le JavaScript, je l'utilise depuis plus d'un an. Associé à Angular il permet d'alléger le code ce qui facilite la lecture et la maintenabilité des composants."
+    },
+    "experiences": {
+        "title": "Expériences",
+        "company1": "Elis",
+        "mission1": "GLAD - Global Logistics Assistance for Deliveries",
+        "content1": "Application de portée mondiale, architecture en micro services, 3M de requêtes par jour, BDD Postrgres, suivi cartographique",
+        "company2": "Groupe HN",
+        "mission2": "",
+        "content2": "2 ans de collaboration avec le Groupe HN à qui je dois ma réussite. Les projets avec l'entreprise m'ont permis de monter en compétences et d'appliquer mes connaissances."
+    },
+    "practices": {
+        "title": "Bonnes Pratiques",
+        "subject1": "Standards de code",
+        "content1": "L'écriture et la maintenance d'un fichier de standards de code sont fondamentales pour partager son code en équipe ou pour les futurs développeurs.",
+        "subject2": "Revue de code",
+        "content2": "En consacrant 1h par semaine à cet exercice, on repère en moyenne 65% des défauts présents dans code.",
+        "subject3": "Stratégie de Tests Automatisés",
+        "content3": "TDD ou BDD, l'important est d'avoir une stratégie de tests couvrant intégralement son code. Cela améliore la qualité du code et sa maintenabilité."
+    },
+    "responsible": {
+        "title": "Le Numérique Responsable",
+        "content1": "Il vise à réduire l'empreinte écologique et sociale des technologies de l'information et de la communication.",
+        "content2": "10% de l'électricité produite dans le monde est consommée par le numérique. À l'heure du streaming, des mails automatiques et de la collection des données, il est nécessaire d'agir pour limiter son impact.",
+        "content3": "Cela passera par un changement des mentalités et une réorganisation des services numériques qui tendront à être plus sobres et plus accessibles.",
+        "button": "En savoir plus"
+    },
+    "contact": {
+        "title": "Contactez moi pour",
+        "line1": "L'amélioration de votre code",
+        "line2": "Des propositions excitantes",
+        "line3": "Des challenges originaux",
+        "email": "oscar.soccol@gmail.com",
+        "phone": "06.47.02.29.80",
+        "linkedIn": "LinkedIn"
+    }
+}

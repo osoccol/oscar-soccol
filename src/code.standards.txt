@@ -1,0 +1,46 @@
+---------------------------------------------------------
+                    ** Variables **
+---------------------------------------------------------
+var element: Element;
+var elementList: Element[] = [];
+
+---------------------------------------------------------
+                    ** Methods **
+---------------------------------------------------------
+function(): void {
+    var num: Number = 2;
+    console.log('num', num);
+}
+
+function(a: FirstArgument, b: SecondArgument): ReturnType {
+    var result: ReturnType;
+
+    if (conditions) {
+        ...
+    } else {
+        ...
+    }
+
+    for (var i = 0; i < size; i++) {
+        ...
+    }
+
+    // set result
+
+    return result: ReturnType;
+}
+
+sayHello = () => {
+    return 'Hello.';
+}
+
+---------------------------------------------------------
+                    ** Classes **
+---------------------------------------------------------
+export class NameComponent implements OnInit {
+
+  constructor() { }
+
+  ngOnInit(): void {
+  }
+}

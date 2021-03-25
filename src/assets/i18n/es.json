@@ -1,0 +1,62 @@
+{
+    "header": {
+        "name": "Oscar Soccol",
+        "job": "Desarrollador web",
+        "line1": "Dedicado a las",
+        "link1": "buenas prácticas",
+        "line2": "Actuando para un",
+        "link2": "digital responsable",
+        "colors": "Contraste de color",
+        "lang": "Idioma",
+        "audio": "Descripción de audio"
+    },
+    "technos": {
+        "title": "Tecnologías",
+        "tech1": "TypeScript",
+        "fram1": "Angular",
+        "content1_0": "Lenguaje de código abierto construido sobre las bases de JavaScript, el lenguaje más utilizado en la Web.",
+        "content1_1": "Angular permite la creación de aplicaciones web que agilizan la experiencia del usuario gracias a una excelente gestión de datos y eventos.",
+        "tech2": "Java",
+        "fram2": "Spring",
+        "content2_0": "Presente desde 1995, Java está en todas partes y ha influido en muchos languajes. Dominando Java puedo programar en cualquier lenguaje orientado a objetos.",
+        "content2_1": "Para aligerar el código Java, el marco Spring es ideal en particular para la configuración de entornos y la gestión de datos.",
+        "tech3": "Bootstrap",
+        "fram3": "",
+        "content3_0": "Extremadamente popular en los últimos años en la comunidad de desarrolladores, Bootstrap ahorra tiempo visual.",
+        "content3_1": "Perfectamente adecuado para JavaScript, lo he estado usando durante más de un año. Asociado a Angular permite aligerar el código lo que facilita la lectura y la mantenibilidad de los componentes."
+    },
+    "experiences": {
+        "title": "Experiencias",
+        "company1": "Elis",
+        "mission1": "GLAD - Global Logistics Assistance for Deliveries",
+        "content1": "Aplicación global, arquitectura de microservicio, 3 millones de solicitudes por día, base de datos Postrgres, monitoreo cartográfico.",
+        "company2": "Grupo HN",
+        "mission2": "",
+        "content2": "2 años de colaboración con el Grupo HN a los que debo mi éxito. Los proyectos con la empresa me permitieron desarrollar mis habilidades y aplicar mis conocimientos."
+    },
+    "practices": {
+        "title": "Buenas prácticas",
+        "subject1": "Normas de código",
+        "content1": "Escribir y mantener un archivo de estándares de código es fundamental para compartir código con un equipo o para futuros desarrolladores.",
+        "subject2": "Revisión de código",
+        "content2": "Al dedicar 1 hora a la semana a este ejercicio, se identifican en promedio el 65% de las fallas presentes en el código.",
+        "subject3": "Estrategia de pruebas automatizadas",
+        "content3": "TDD o BDD, lo importante es tener una estrategia de pruebas que cubra completamente su código. Esto mejora la calidad del código y su capacidad de mantenimiento."
+    },
+    "responsible": {
+        "title": "Digital Responsable",
+        "content1": "Su objetivo es reducir la huella ecológica y social de las tecnologías de la información y la comunicación.",
+        "content2": "El 10% de la electricidad producida en el mundo se consume digitalmente. En esta era de transmisión, correos electrónicos automáticos y recopilación de datos, es necesario actuar para limitar su impacto.",
+        "content3": "Esto requerirá un cambio de mentalidad y una reorganización de los servicios digitales que tenderán a ser más sobrios y accesibles.",
+        "button": "Más información"
+    },
+    "contact": {
+        "title": "Contáctame Para",
+        "line1": "Mejorando su código",
+        "line2": "Propuestas interesantes",
+        "line3": "Desafíos originales",
+        "email": "oscar.soccol@gmail.com",
+        "phone": "06.47.02.29.80",
+        "linkedIn": "LinkedIn"
+    }
+}

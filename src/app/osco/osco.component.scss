@@ -1,0 +1,122 @@
+.header .name, .contact h2 {
+    color: #F78F60;
+}
+
+.header a, .header a:visited {
+    color: #49F3A9;
+}
+
+.header a:hover, #responsible a:hover, .contact a:hover {
+    text-decoration: none;
+    opacity: 0.5;
+}
+
+.rowIcons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.headerIcons {
+    border: 2px solid black;
+    border-radius: 30px;
+    height: 60px;
+    width: 60px;
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
+
+.flag {
+    background-size: cover;
+    background-position: center;
+}
+
+#flagEN {
+    background-image: url("../../assets/flags/en.png");
+}
+
+#flagES {
+    background-image: url("../../assets/flags/es.png");
+}
+
+#flagFR {
+    background-image: url("../../assets/flags/fr.png");
+}
+
+// .lng {
+//     position: fixed;
+//     top: 1rem;
+//     right: 1rem;
+// }
+
+.technos, #practices, .contact {
+    background-color: #F2EDDD;
+}
+
+.technos .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerIcons:hover, .experiences img:hover, .contact img:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.contact a, .contact a:visited, #responsible a, #responsible a:visited {
+    color: #0A3E65;
+}
+
+/** For contrasted styles **/
+.contrasted,
+.contrasted #practices {
+    background-color: black !important;
+}
+
+.contrasted a,
+.contrasted a:visited,
+.contrasted .name,
+.contrasted p,
+.contrasted h2,
+.contrasted h3,
+.contrasted h4,
+.contrasted h5,
+.contrasted h6 {
+    color: white !important;
+    font-weight: bold;
+}
+
+.contrasted .headerIcons {
+    border: 2px solid white;
+}
+
+.contrasted a,
+.contrasted a:hover,
+.contrasted a:visited {
+    text-decoration: underline;
+}
+
+.audio {
+    background-color: black !important;
+    background-image: url("../../assets/icons/soundwave-white.svg") !important;
+}
+
+
+.contrasted .audio {
+    background-color: white !important;
+    background-image: url("../../assets/icons/soundwave.svg") !important;
+}
+
+.contrastFlag {
+    text-align: center;
+    vertical-align: bottom;
+    color: black;
+    background-color: white;
+}
+
+audio {
+    border: none;
+    border-radius: 100px !important;
+    box-shadow: 0 0 5px #0A3E65;
+}
