@@ -1,18 +1,18 @@
 ---------------------------------------------------------
                     ** Variables **
 ---------------------------------------------------------
-var element: Element;
-var elementList: Element[] = [];
+var element: ElementType;
+var elementList: ElementType[] = [];
 
 ---------------------------------------------------------
                     ** Methods **
 ---------------------------------------------------------
 function(): void {
-    var num: Number = 2;
+    var num: number = 2;
     console.log('num', num);
 }
 
-function(a: FirstArgument, b: SecondArgument): ReturnType {
+function(a: FirstArgumentType, b: SecondArgumentType): ReturnType {
     var result: ReturnType;
 
     if (conditions) {

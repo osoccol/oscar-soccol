@@ -32,24 +32,6 @@
     background-position: center;
 }
 
-#flagEN {
-    background-image: url("../../assets/flags/en.png");
-}
-
-#flagES {
-    background-image: url("../../assets/flags/es.png");
-}
-
-#flagFR {
-    background-image: url("../../assets/flags/fr.png");
-}
-
-// .lng {
-//     position: fixed;
-//     top: 1rem;
-//     right: 1rem;
-// }
-
 .technos, #practices, .contact {
     background-color: #F2EDDD;
 }
@@ -66,6 +48,16 @@
 
 .contact a, .contact a:visited, #responsible a, #responsible a:visited {
     color: #0A3E65;
+}
+
+.experiences img {
+    max-width: 250px;
+}
+
+
+/** For audio styles **/
+audio {
+    outline: none;
 }
 
 /** For contrasted styles **/
@@ -113,10 +105,4 @@
     vertical-align: bottom;
     color: black;
     background-color: white;
-}
-
-audio {
-    border: none;
-    border-radius: 100px !important;
-    box-shadow: 0 0 5px #0A3E65;
 }

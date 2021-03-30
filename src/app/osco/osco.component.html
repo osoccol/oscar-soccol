@@ -2,74 +2,71 @@
     [ngClass]="contrastSelect ? 'contrasted' : ''">
     <h1 class="name m-0">{{'header.name'|translate}}</h1>
     <h3 class="job">{{'header.job'|translate}}</h3>
-    <p class="m-0">{{'header.line1'|translate}} <a href="#practices">{{'header.link1'|translate}}</a></p>
-    <p>{{'header.line2'|translate}} <a href="#responsible">{{'header.link2'|translate}}</a></p>
-    <div class="row w-75 m-auto rowIcons p-3 fade-in" *ngIf="!langSelect">
-        <div class="col-4">
-            <div class="headerIcons m-auto" title="{{'header.colors'|translate}}" (click)="onContrastChange()"
-                [ngStyle]="{'background-image': icons[0]}"></div>
+    <p class="m-0 text-center">{{'header.line1'|translate}} <a href="#practices">{{'header.link1'|translate}}</a></p>
+    <p class=" text-center">{{'header.line2'|translate}} <a href="#responsible">{{'header.link2'|translate}}</a></p>
+    <div class="container">
+        <div class="row w-75 m-auto rowIcons p-3 fade-in" *ngIf="!langSelect">
+            <div class="col-4">
+                <div class="headerIcons m-auto" title="{{'header.colors'|translate}}" (click)="onContrastChange()"
+                    [ngStyle]="{'background-image': iconList[0]}"></div>
+            </div>
+            <div class="col-4">
+                <div class="headerIcons m-auto" title="{{'header.lang'|translate}}" (click)="onLangChange()"
+                    [ngStyle]="{'background-image': iconList[1]}"></div>
+            </div>
+            <div class="col-4">
+                <div class="headerIcons m-auto" title="{{'header.audio'|translate}}" (click)="onAudioChange()"
+                    [ngStyle]="{'background-image': iconList[2]}" [ngClass]="audioSelect ? 'audio' : ''"></div>
+            </div>
         </div>
-        <div class="col-4">
-            <div class="headerIcons m-auto" title="{{'header.lang'|translate}}" (click)="onLangChange()"
-                [ngStyle]="{'background-image': icons[1]}"></div>
+        <div class="row w-75 m-auto rowIcons p-3" *ngIf="langSelect && !contrastSelect">
+            <div class="col-4" *ngFor="let lang of langList; let i = index">
+                <div class="headerIcons m-auto flag" [ngStyle]="{'background-image': flagList[i]}"
+                title="{{lang|uppercase}}" (click)="onLangSelect(lang)"></div>
+            </div>
         </div>
-        <div class="col-4">
-            <div class="headerIcons m-auto" title="{{'header.audio'|translate}}" (click)="onAudioChange()"
-                [ngStyle]="{'background-image': icons[2]}" [ngClass]="audioSelect ? 'audio' : ''"></div>
-        </div>
-    </div>
-    <div class="row w-75 m-auto rowIcons p-3" *ngIf="langSelect && !contrastSelect">
-        <div class="col-4">
-            <div class="headerIcons m-auto flag" title="EN" (click)="onLangSelect('en')" id="flagEN"></div>
-        </div>
-        <div class="col-4">
-            <div class="headerIcons m-auto flag" title="ES" (click)="onLangSelect('es')" id="flagES"></div>
-        </div>
-        <div class="col-4">
-            <div class="headerIcons m-auto flag" title="FR" (click)="onLangSelect('fr')" id="flagFR"></div>
-        </div>
-    </div>
-    <div class="row w-75 m-auto rowIcons p-3" *ngIf="langSelect && contrastSelect">
-        <div class="col-4">
-            <div class="headerIcons m-auto contrastFlag p-2" title="EN" (click)="onLangSelect('en')">EN</div>
-        </div>
-        <div class="col-4">
-            <div class="headerIcons m-auto contrastFlag p-2" title="ES" (click)="onLangSelect('es')">ES</div>
-        </div>
-        <div class="col-4">
-            <div class="headerIcons m-auto contrastFlag p-2" title="FR" (click)="onLangSelect('fr')">FR</div>
+        <div class="row w-75 m-auto rowIcons p-3" *ngIf="langSelect && contrastSelect">
+            <div class="col-4" *ngFor="let lang of langList; let i = index">
+                <div class="headerIcons m-auto contrastFlag p-2" [ngStyle]="{'background-image': iconList[i]}"
+                title="{{lang|uppercase}}" (click)="onLangSelect(lang)">{{lang|uppercase}}</div>
+            </div>
         </div>
     </div>
-    <audio controls *ngIf="audioSelect" preload="none" controlsList="nodownload">
-        <source src="../../assets/audio.mp3" type="audio/mp3">
-        Your browser does not support the audio element.
-    </audio>
+    
+    <div class="row text-center pt-3" *ngIf="audioSelect">
+        <audio class="m-auto" controls preload="none" controlsList="nodownload">
+            <source [src]="audioSource[0]" type="audio/mp3">
+            {{'audio.message'|translate}}
+        </audio>
+    </div>
 </div>
 <div class="container-fluid technos" [ngClass]="contrastSelect ? 'contrasted' : ''">
     <div class="container">
         <div class="row pt-5 text-center">
             <div class="col-12">
-                <audio controls *ngIf="audioSelect" preload="none" controlsList="nodownload">
-                    <source src="../../assets/aa.mp3" type="audio/mp3">
-                    Your browser does not support the audio element.
-                </audio>
                 <h2>{{'technos.title'|translate}}</h2>
+                <audio controls *ngIf="audioSelect" preload="none" controlsList="nodownload">
+                    <source [src]="audioSource[1]" type="audio/mp3">
+                    {{'audio.message'|translate}}
+                </audio>
             </div>
         </div>
-        <div class="row p-3">
-            <div class="col-12 col-lg-4 p-3">
+        <div class="row py-3">
+            <div class="col-12 col-xl-3">
                 <h4>{{'technos.tech1'|translate}}</h4>
                 <h5>{{'technos.fram1'|translate}}</h5>
                 <p>{{'technos.content1_0'|translate}}</p>
                 <p>{{'technos.content1_1'|translate}}</p>
             </div>
-            <div class="col-12 col-lg-4 p-3">
+            <mat-divider vertical="true"></mat-divider>
+            <div class="col-12 col-xl-3">
                 <h4>{{'technos.tech2'|translate}}</h4>
                 <h5>{{'technos.fram2'|translate}}</h5>
                 <p>{{'technos.content2_0'|translate}}</p>
                 <p>{{'technos.content2_1'|translate}}</p>
             </div>
-            <div class="col-12 col-lg-4 p-3">
+            <mat-divider vertical="true"></mat-divider>
+            <div class="col-12 col-xl-3">
                 <h4>{{'technos.tech3'|translate}}</h4>
                 <h5>{{'technos.fram3'|translate}}</h5>
                 <p>{{'technos.content3_0'|translate}}</p>
@@ -83,30 +80,43 @@
         <div class="row pt-5 text-center">
             <div class="col-12">
                 <h2>{{'experiences.title'|translate}}</h2>
-            </div>
-        </div>
-        <div class="row p-3" id="elis">
-            <div class="col-12 col-md-8 p-3">
-                <h5>{{'experiences.company1'|translate}}</h5>
-                <h6>{{'experiences.mission1'|translate}}</h6>
-                <p>{{'experiences.content1'|translate}}</p>
-            </div>
-            <div class="col-12 col-md-4 p-3 text-center">
-                <a href="https://fr.elis.com/fr" target="_blank">
-                    <img class="w-50 shadow-md" src="../../assets/img/ELIS.svg" alt="ElisLogo" />
-                </a>
+                <audio controls *ngIf="audioSelect" preload="none" controlsList="nodownload">
+                    <source [src]="audioSource[2]" type="audio/mp3">
+                    {{'audio.message'|translate}}
+                </audio>
             </div>
         </div>
         <div class="row p-3" id="hngroup">
-            <div class="col-12 col-md-8 p-3">
-                <h5>{{'experiences.company2'|translate}}</h5>
-                <h6>{{'experiences.mission2'|translate}}</h6>
-                <p>{{'experiences.content2'|translate}}</p>
+            <div class="col-12 p-3">
+                <h5>{{'experiences.company2.name'|translate}}</h5>
+                <h6>{{'experiences.company2.mission'|translate}}</h6>
+                <p>{{'experiences.company2.content'|translate}}</p>
             </div>
-            <div class="col-12 col-md-4 p-3 text-center">
+            <div class="col-12 col-lg-4 p-3 text-center">
                 <a href="https://www.hn-services.com/fr/" target="_blank">
-                    <img class="w-50 shadow-md" src="../../assets/img/HNgroup.png" alt="HNgroupLogo" />
+                    <img class="w-75" src="../../assets/img/HNgroup.png" alt="HNgroupLogo" />
                 </a>
+            </div>
+            <div class="col-12 col-lg-8 p-3">
+                <p>{{'experiences.company2.comment.name'|translate}} - {{'experiences.company2.comment.job'|translate}}</p>
+                <p class="font-italic">"{{'experiences.company2.comment.content'|translate}}"</p>
+            </div>
+        </div>
+        <mat-divider id="matdivider"></mat-divider>
+        <div class="row p-3" id="elis">
+            <div class="col-12 p-3">
+                <h5>{{'experiences.company1.name'|translate}}</h5>
+                <h6>{{'experiences.company1.mission'|translate}}</h6>
+                <p>{{'experiences.company1.content'|translate}}</p>
+            </div>
+            <div class="col-12 col-lg-4 p-3 text-center">
+                <a href="https://fr.elis.com/fr" target="_blank">
+                    <img class="w-75" src="../../assets/img/ELIS.svg" alt="ElisLogo" />
+                </a>
+            </div>
+            <div class="col-12 col-lg-8 p-3" hidden="{{'experiences.company1.comment.name'}} === ''">
+                <p>{{'experiences.company1.comment.name'|translate}} - {{'experiences.company1.comment.job'|translate}}</p>
+                <p>{{'experiences.company1.comment.content'|translate}}</p>
             </div>
         </div>
     </div>
@@ -116,6 +126,10 @@
         <div class="row pt-5 text-center">
             <div class="col-12">
                 <h2>{{'practices.title'|translate}}</h2>
+                <audio controls *ngIf="audioSelect" preload="none" controlsList="nodownload">
+                    <source [src]="audioSource[3]" type="audio/mp3">
+                    {{'audio.message'|translate}}
+                </audio>
             </div>
         </div>
         <div class="row pt-5" id="standards">
@@ -144,6 +158,10 @@
         <div class="row pt-5 text-center">
             <div class="col-12">
                 <h2>{{'responsible.title'|translate}}</h2>
+                <audio controls *ngIf="audioSelect" preload="none" controlsList="nodownload">
+                    <source [src]="audioSource[4]" type="audio/mp3">
+                    {{'audio.message'|translate}}
+                </audio>
             </div>
         </div>
         <div class="row p-3">
@@ -151,6 +169,7 @@
                 <p>{{'responsible.content1'|translate}}</p>
                 <p>{{'responsible.content2'|translate}}</p>
                 <p>{{'responsible.content3'|translate}}</p>
+                <p>{{'responsible.content4'|translate}}</p>
             </div>
             <div class="col-12 text-center">
                 <a href="https://institutnr.org/" target="_blank">{{'responsible.button'|translate}}
@@ -167,6 +186,12 @@
                 <h6>{{'contact.line1'|translate}}</h6>
                 <h6>{{'contact.line2'|translate}}</h6>
                 <h6>{{'contact.line3'|translate}}</h6>
+            </div>
+            <div class="col-12">
+                <audio controls *ngIf="audioSelect" preload="none" controlsList="nodownload">
+                    <source [src]="audioSource[5]" type="audio/mp3">
+                    {{'audio.message'|translate}}
+                </audio>
             </div>
         </div>
         <div class="row p-3 text-center">

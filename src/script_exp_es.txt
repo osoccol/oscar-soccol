@@ -1,0 +1,17 @@
+Después de mi curso académico de ingeniería trabajé durante 2 años para HN-Servicios con sede en París.
+Seguí un programa de 6 meses para aprender las nuevas tecnologías asociadas a Java (como Angular / React / Spring y otras).
+
+Después de la capacitación formé parte del equipo que creó desde cero una nueva solución para la empresa mundial Elis.
+Un proyecto masivo que tenía como objetivos orientar a los conductores de la empresa en su punto de entrega,
+asociado a una solución de monitoreo y despacho.
+También implementamos un programa para optimizar las entregas,
+asi como haber escrito y actualizado las especificaciones técnicas y funcionales de la aplicación.
+
+La solución fue una aplicación de una sola página y ha sido desarrollada con las siguientes tecnologías y características:
+Angular para el front-end
+Java y Spring para el back-end
+Tenía una arquitectura de microservicios que se implementó en la nube AZURE de Microsoft.
+Una base de datos de Postgres que procesa 3 millones de solicitudes por día.
+Un seguimiento cartográfico con una API de HereMaps.
+
+Me motivan los nuevos proyectos y me esfuerzo profesionalmente en nuevos retos y técnicas.

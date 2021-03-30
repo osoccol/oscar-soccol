@@ -3,10 +3,10 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
-import { CollapseModule } from 'ngx-bootstrap/collapse';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
 import { OscoComponent } from './osco/osco.component';
+import {MatDividerModule} from '@angular/material/divider';
 
 @NgModule({
   declarations: [
@@ -17,7 +17,7 @@ import { OscoComponent } from './osco/osco.component';
     BrowserModule,
     BrowserAnimationsModule,
     HttpClientModule,
-    CollapseModule.forRoot(),
+    MatDividerModule,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,

@@ -1,0 +1,17 @@
+Además de HTML y CSS, utilizo principalmente tecnologías de código abierto.
+
+Para el front-end, que es el aspecto visual e interactivo de los sitios web, utilizo TypeScript.
+Se basa en el lenguaje más utilizado en la web: JavaScript.
+
+A TypeScript asocio el marco Angular
+Es de código abierto y codirigido por Google.
+Creo que es el futuro de las aplicaciones web por su excelente gestión de datos y eventos.
+También utilizo Bootstrap en asociación con Angular, es una herramienta muy popular y poderosa para diseños de sitios web.
+Hace que el código sea más ligero y fácil de mantener.
+
+Para el back-end, que trata sobre la gestión de datos y cálculos del lado del servidor, programo en Java con el marco Spring.
+Desde 1995, Java está en todas partes y ha influido en una gran cantidad de lenguajes.
+Al dominarlo, puedo programar en cualquier lenguaje orientado a objetos.
+El marco Spring es perfecto para aligerar el código Java, especialmente para configurar entornos y administrar datos.
+
+En las próximas secciones hablaré sobre mis experiencias y cómo utilicé las tecnologías que acabo de describir.

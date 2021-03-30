@@ -1,0 +1,17 @@
+Good practices in web development are often considered time consuming and can be voluntarily avoided.
+I explain why it's a mistake and how important they are, both for the client and the developer.
+
+First of all, especially when working in team, write and keep updated a code standards file.
+It has several benefits:
+It ensures a coherence in the different codes that the developers write and it makes the maintainability easier.
+
+Then, save time to Review the code.
+Would you publish an article in a journal without reviewing it first? Well, it's the same for coding.
+By doing it 1h/week, we can detect in average 65% of the bugs and miswritings before pushing them in the project.
+That's how the code review is efficient and important.
+
+Finally, you need an automatized tests strategy.
+Behavior or Test Driven Development, the important is to get the code covered. It's a crucial element to avoid bugs and regressions in the future.
+It takes time, but if they're let on the side it will be a nightmare to make the code evolve.
+The later a bug is discovered, the more expensive it will be.
+That is why I guarantee to cover at least 90% of my code in every situation.

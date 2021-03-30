@@ -6,11 +6,19 @@ import { Injectable } from '@angular/core';
 export class UrlsService {
     constructor() { }
 
-    getHeaderIconsUrls(): string[] {
+    getHeaderIconsUrlList(): string[] {
         return [
             '../../assets/icons/contrast',
             '../../assets/icons/translate',
             '../../assets/icons/soundwave',
+        ]
+    }
+
+    getFlagsIconsUrlList(): string[] {
+        return [
+            '../../assets/flags/en',
+            '../../assets/flags/es',
+            '../../assets/flags/fr',
         ]
     }
 }
