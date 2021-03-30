@@ -8,9 +8,10 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class AppComponent {
   title = 'oscar-soccol';
+  langList: string[] = ['en', 'es', 'fr'];
 
   constructor(private translate: TranslateService) {
     translate.setDefaultLang(translate.getBrowserLang());
-    translate.addLangs(['fr', 'es', 'en']);
+    translate.addLangs(this.langList);
   }
 }

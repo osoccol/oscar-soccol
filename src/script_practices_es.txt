@@ -1,0 +1,18 @@
+Las buenas prácticas en el desarrollo web frecuentemente se consideran una perdida de tiempo, de ahi que son evitadas.
+Explico por qué es un error evitarlas por la importancia que representan, tanto para el cliente como para el desarrollador.
+
+En primer lugar, especialmente cuando trabajemos en equipo, escribamos y mantengamos actualizado un archivo de estándares de código.
+Tiene varios beneficios:
+Asegura una coherencia en los diferentes códigos que escriben los desarrolladores y facilita la mantenibilidad.
+
+Luego, ahorar tiempo para revisar el código.
+¿Publicaría un artículo en una revista sin revisarlo primero? Bueno, es lo mismo para la codificación.
+Haciéndolo una hora por semana,
+podemos detectar en promedio el 65% (porciento) de los bugs y errores de escritura antes de introducirlos en el proyecto.
+Así es como la revisión del código es eficiente e importante.
+
+Finalmente, necesita una estrategia de pruebas automatizadas.
+BDD o TDD, lo importante es cubrir la totalidad del código. Es un elemento crucial para evitar errores y regresiones en el futuro.
+Se necesita tiempo, pero si se dejan de lado, será una pesadilla hacer que el código evolucione.
+Cuanto más tarde se descubra un error, más caro será.
+Es por eso que garantizo cubrir al menos el 90% de mi código en cada situación.

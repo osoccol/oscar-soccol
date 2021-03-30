@@ -1,0 +1,16 @@
+After my engineering academic course I worked during 2 years for HN Services based in Paris.
+I followed a 6 months program to teach me the new technologies associated with Java (as Angular/React/Spring and others).
+
+After the training I was part of the team who created from scratch a new solution for the world wide company Elis. 
+A massive project that had for objectives to guide the company's drivers at their delivery point, associated with a monitoring and dispatching solution.
+We also implemented a program to optimize deliveries.
+I also wrote and updated the functional and technical specifications of the application.
+
+The solution was a single page application and has been develop with the following technologies and caracteristics:
+Angular for the front-end
+Java and Spring for the back-end
+It had a micro-services architecture which was deployed on the cloud Azher from Microsoft.
+A Postgres database that processed 3M requests/day.
+A cartographic monitoring with Here Maps API.
+
+I'm motivated by new projects and putting my efforts into new challenges, technically and professionnally.

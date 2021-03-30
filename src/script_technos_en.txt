@@ -1,0 +1,17 @@
+In addition of HTML & CSS I mainly use open-sources technologies.
+
+For the front-end,which is the visual and interactive aspect of websites, I use TypeScript. 
+It is built on the most used language on the web: JavaScript.
+
+To TypeScript I associate Angular framework
+It's open-source and co-diricted by Google.
+I think that it is the future of web applications due to its excellent management of data and events.
+I also use Bootstrap in association with Angular, it's a very popular and powerful tool for website designs.
+It makes the code lighter and easily maintanable.
+
+For the back-end, which is about managing data and server-side calculi, I program in Java with the framework Spring.
+Since 19-95 Java is everywhere and has influenced a large amount of languages.
+By mastering it I am able to program in any object oriented language.
+Spring framework is perfect to lighten the Java code, especially to configure environments and manage data.
+
+In the next sections I'll talk about my experiences and how I used the technologies that I just described.
