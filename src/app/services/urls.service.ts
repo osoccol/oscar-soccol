@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+import { environment } from 'src/environments/environment';
 
 @Injectable({
     providedIn: 'root'
@@ -7,18 +8,19 @@ export class UrlsService {
     constructor() { }
 
     getHeaderIconsUrlList(): string[] {
+        
         return [
-            '/assets/icons/contrast',
-            '/assets/icons/translate',
-            '/assets/icons/soundwave',
+            environment.path +'/assets/icons/contrast',
+            environment.path + '/assets/icons/translate',
+            environment.path + '/assets/icons/soundwave',
         ]
     }
 
     getFlagsIconsUrlList(): string[] {
         return [
-            '/assets/flags/en',
-            '/assets/flags/es',
-            '/assets/flags/fr',
+            environment.path + '/assets/flags/en',
+            environment.path + '/assets/flags/es',
+            environment.path + '/assets/flags/fr',
         ]
     }
 }

@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+import { environment } from 'src/environments/environment';
 
 @Injectable({
     providedIn: 'root'
@@ -9,7 +10,7 @@ export class AudioService {
 
     getAudioSourceList(lang: string): string[] {
         if (lang) {
-            let path: string = '/assets/audio/';
+            let path: string = environment.path + '/assets/audio/';
             let ext: string = '.mp3';
     
             let audioSourceList: string[] = [];
