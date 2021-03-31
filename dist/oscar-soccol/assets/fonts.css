@@ -1,0 +1,14 @@
+@font-face {
+    font-family: Dosis;
+    src: url('fonts/dosis/static/Dosis-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Orkney;
+    src: url('fonts/orkney/Orkney_Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Josefin;
+    src: url('fonts/josefin_sans/JosefinSans-Light.ttf') format('truetype');
+}
