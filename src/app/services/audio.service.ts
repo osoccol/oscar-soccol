@@ -9,7 +9,7 @@ export class AudioService {
 
     getAudioSourceList(lang: string): string[] {
         if (lang) {
-            let path: string = '../../assets/audio/';
+            let path: string = '/assets/audio/';
             let ext: string = '.mp3';
     
             let audioSourceList: string[] = [];
