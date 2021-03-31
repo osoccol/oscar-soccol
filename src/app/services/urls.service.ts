@@ -8,17 +8,17 @@ export class UrlsService {
 
     getHeaderIconsUrlList(): string[] {
         return [
-            '../../assets/icons/contrast',
-            '../../assets/icons/translate',
-            '../../assets/icons/soundwave',
+            '/assets/icons/contrast',
+            '/assets/icons/translate',
+            '/assets/icons/soundwave',
         ]
     }
 
     getFlagsIconsUrlList(): string[] {
         return [
-            '../../assets/flags/en',
-            '../../assets/flags/es',
-            '../../assets/flags/fr',
+            '/assets/flags/en',
+            '/assets/flags/es',
+            '/assets/flags/fr',
         ]
     }
 }
