@@ -32,15 +32,15 @@
             "mission": "GLAD - Global Logistics Assistance for Deliveries",
             "content": "Desarrollo de una aplicación global desplegada en 27 países. La misión consistió en la creación de una aplicación de orientación al conductor, así como una solución basada en la web para rastrear y optimizar las rutas de entrega. El entorno técnico fue, entre otras cosas, compuesto por una arquitectura de microservicios implementada en AZURE Cloud de Microsoft, una base de datos Postgres que procesa 3M de solicitudes/día, un monitoreo cartográfico a través de la API HereMaps.",
             "comment": {
-                "name": "",
-                "job": "",
-                "content": ""
+                "name": "Imen A.",
+                "job": "Product Owner",
+                "content": "A lo largo de su colaboración en el desarrollo del producto, Oscar ha demostrado ser un desarrollador muy talentoso que se siente cómodo con las tecnologías utilizadas. Fue una fuerza de propuesta y su búsqueda de soluciones siempre fue minuciosa y relevante. Su participación le permitió no solo desarrollar habilidades técnicas sino también aprender a evolucionar en un contexto empresarial complejo con muchos desafíos y conocer la metodología ágil que facilita el trabajo en este tipo de contextos."
             }
         },
         "company2": {
             "name" : "HN Servicios",
             "mission": "",
-            "content": "2 años de colaboración con el Grupo HN a los que debo mi éxito. Me contrataron después de mis estudios de ingeniería y luego me capacitaron internamente durante 6 meses en nuevas tecnologías en Java. Allí aprendí el aspecto técnico de la profesión de desarrollador y pude participar en la implementación de un proyecto a gran escala, desde la redacción de las especificaciones técnicas y funcionales hasta la entrega de la solución. Los proyectos con la empresa me permitieron desarrollar mis habilidades y aplicar mis conocimientos. Florecí durante esta experiencia gracias a los equipos de HN que confiaron en mí.",
+            "content": "2 Años de colaboración con el Grupo HN a los que debo mi éxito. Me contrataron después de mis estudios de ingeniería y luego me capacitaron internamente durante 6 meses en nuevas tecnologías en Java. Allí aprendí el aspecto técnico de la profesión como desarrollador y pude participar en la implementación de un proyecto a gran escala, desde la redacción de las especificaciones técnicas y funcionales hasta la entrega de la solución. Los proyectos con la empresa me permitieron desarrollar mis habilidades y aplicar mis conocimientos. Crecí durante esta experiencia gracias a los equipos de HN que confiaron en mí.",
             "comment": {
                 "name": "Stéphane S.",
                 "job": "Director del Proyecto",
