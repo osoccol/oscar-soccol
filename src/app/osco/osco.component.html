@@ -40,38 +40,36 @@
         </audio>
     </div>
 </div>
-<div class="container-fluid technos" [ngClass]="contrastSelect ? 'contrasted' : ''">
-    <div class="container">
-        <div class="row pt-5 text-center">
-            <div class="col-12">
-                <h2>{{'technos.title'|translate}}</h2>
-                <audio controls *ngIf="audioSelect" preload="none" controlsList="nodownload">
-                    <source [src]="audioSource[1]" type="audio/mp3">
-                    {{'audio.message'|translate}}
-                </audio>
-            </div>
+<div class="container-fluid technos pb-3 px-5" [ngClass]="contrastSelect ? 'contrasted' : ''">
+    <div class="row pt-5 text-center">
+        <div class="col-12">
+            <h2>{{'technos.title'|translate}}</h2>
+            <audio controls *ngIf="audioSelect" preload="none" controlsList="nodownload">
+                <source [src]="audioSource[1]" type="audio/mp3">
+                {{'audio.message'|translate}}
+            </audio>
         </div>
-        <div class="row py-3">
-            <div class="col-12 col-xl-3">
-                <h4>{{'technos.tech1'|translate}}</h4>
-                <h5>{{'technos.fram1'|translate}}</h5>
-                <p>{{'technos.content1_0'|translate}}</p>
-                <p>{{'technos.content1_1'|translate}}</p>
-            </div>
-            <mat-divider vertical="true"></mat-divider>
-            <div class="col-12 col-xl-3">
-                <h4>{{'technos.tech2'|translate}}</h4>
-                <h5>{{'technos.fram2'|translate}}</h5>
-                <p>{{'technos.content2_0'|translate}}</p>
-                <p>{{'technos.content2_1'|translate}}</p>
-            </div>
-            <mat-divider vertical="true"></mat-divider>
-            <div class="col-12 col-xl-3">
-                <h4>{{'technos.tech3'|translate}}</h4>
-                <h5>{{'technos.fram3'|translate}}</h5>
-                <p>{{'technos.content3_0'|translate}}</p>
-                <p>{{'technos.content3_1'|translate}}</p>
-            </div>
+    </div>
+    <div class="row">
+        <div class="col-12 col-xl-3 py-3">
+            <h4>{{'technos.tech1'|translate}}</h4>
+            <h5>Framework: {{'technos.fram1'|translate}}</h5>
+            <p>{{'technos.content1_0'|translate}}</p>
+            <p>{{'technos.content1_1'|translate}}</p>
+        </div>
+        <mat-divider vertical="true"></mat-divider>
+        <div class="col-12 col-xl-3 py-3">
+            <h4>{{'technos.tech2'|translate}}</h4>
+            <h5>Framework: {{'technos.fram2'|translate}}</h5>
+            <p>{{'technos.content2_0'|translate}}</p>
+            <p>{{'technos.content2_1'|translate}}</p>
+        </div>
+        <mat-divider vertical="true"></mat-divider>
+        <div class="col-12 col-xl-3 py-3">
+            <h4>{{'technos.tech3'|translate}}</h4>
+            <h5>{{'technos.fram3'|translate}}</h5>
+            <p>{{'technos.content3_0'|translate}}</p>
+            <p>{{'technos.content3_1'|translate}}</p>
         </div>
     </div>
 </div>
@@ -114,9 +112,9 @@
                     <img class="w-75" src="../../assets/img/ELIS.svg" alt="ElisLogo" />
                 </a>
             </div>
-            <div class="col-12 col-lg-8 p-3" hidden="{{'experiences.company1.comment.name'}} === ''">
+            <div class="col-12 col-lg-8 p-3">
                 <p>{{'experiences.company1.comment.name'|translate}} - {{'experiences.company1.comment.job'|translate}}</p>
-                <p>{{'experiences.company1.comment.content'|translate}}</p>
+                <p class="font-italic">"{{'experiences.company1.comment.content'|translate}}"</p>
             </div>
         </div>
     </div>
@@ -202,8 +200,11 @@
                 <h6 class="m-0">{{'contact.phone'|translate}}</h6>
             </div>
             <div class="col-12">
-                <a href="https://www.linkedin.com/in/oscar-soccol-335465b1/" target="_blank">
+                <a class="px-2" href="https://www.linkedin.com/in/oscar-soccol-335465b1/" target="_blank">
                     <img src="../../assets/icons/linkedin.svg" alt="linkedInIcon" class="align-top">
+                </a>
+                <a class="px-2" href="https://github.com/osoccol/oscar-soccol/" target="_blank">
+                    <img src="../../assets/icons/github.svg" alt="githubIcon" class="align-top">
                 </a>
             </div>
         </div>

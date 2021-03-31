@@ -32,9 +32,9 @@
             "mission": "GLAD - Global Logistics Assistance for Deliveries",
             "content": "Development of a global application deployed in 27 countries. Creation of a driver guidance app as well as a web-based solution for tracking and optimizing delivery routes. The technical environment was composed of a micro-services architecture deployed on Microsoft's AZURE Cloud, a Postgres database processing 3M requests/day, a cartographic monitoring via the HereMaps API, among other technologies...",
             "comment": {
-                "name": "",
-                "job": "",
-                "content": ""
+                "name": "Imen A.",
+                "job": "Product Owner",
+                "content": "Throughout his collaboration, Oscar has proven himself to be a very talented developer who is comfortable with the latest technologies. His search for solutions was always meticulous and relevant. His participation allowed him not only to develop technical skills but also to learn to evolve in a complex business context with many challenges and to learn about the agile methodology which facilitates work in this kind of context."
             }
         },
         "company2": {
@@ -44,7 +44,7 @@
             "comment": {
                 "name": "Stéphane S.",
                 "job": "Projects Director",
-                "content": "Oscar took part for 15 months in a large-scale technical and functional project. He invested heavily in learning new technologies that he quickly mastered. He was able to acquire a solid technical base, participate in a project from scratch, follow the appropriate methodology, bringing values ​​and empathy."
+                "content": "Oscar took part for 15 months in a large-scale technical and functional project. He really got invested in learning new technologies that he quickly mastered. He was able to acquire a solid technical base, participate in a project from scratch, follow the appropriate methodology, bringing values ​​and empathy."
             }
         }
     },

@@ -32,9 +32,9 @@
             "mission": "GLAD - Global Logistics Assistance for Deliveries",
             "content": "Developpement d'une application de portée mondiale déployée dans 27 pays. La mission consistait à la création d'une appli de guidage des chauffeurs ainsi qu’une solution Web de suivi et d’optimisation des tournées de livraison. L'environnement technique était, entre autres, composé d'une architecture en micro services déployée sur le Cloud AZURE de Microsoft, d'une base de données Postgres traitant 3M de requêtes/jour, un suivi cartographique via l'API HereMaps.",
             "comment": {
-                "name": "",
-                "job": "",
-                "content": ""
+                "name": "Imen A.",
+                "job": "Product Owner",
+                "content": "Tout au long de sa collaboration au développement du produit, Oscar s’est révélé être un développeur très doué et à l'aise avec les technologies utilisées. Il était force de proposition et ses recherches de solutions étaient toujours minutieuses et pertinentes. Sa participation lui a permit non seulement de développer des compétences techniques mais aussi d'apprendre à évoluer dans un contexte métier complexe avec beaucoup de challenges et de s'initier à la méthodologie agile qui facilite le travail dans ce genre de contexte."
             }
         },
         "company2": {
