@@ -25,6 +25,8 @@ export class OscoComponent implements OnInit {
   iconList: string[] = [];
   flagUrlList: string[] = [];
   flagList: string[] = [];
+  contactIconList: string[] = [];
+  imgList: string[] = [];
 
   // Audio sources
   audioSource: string[] = [];
@@ -36,6 +38,9 @@ export class OscoComponent implements OnInit {
     private translate: TranslateService) {
     this.iconUrlList = this.urlsService.getHeaderIconsUrlList();
     this.flagUrlList = this.urlsService.getFlagsIconsUrlList();
+    this.contactIconList = this.urlsService.getContactIconsUrlList();
+    this.imgList = this.urlsService.getImagesUrlList();
+
     this.audioSource = this.audioService.getAudioSourceList(translate.defaultLang);
   }
 

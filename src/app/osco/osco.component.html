@@ -53,14 +53,14 @@
     <div class="row">
         <div class="col-12 col-xl-3 py-3">
             <h4>{{'technos.tech1'|translate}}</h4>
-            <h5>Framework: {{'technos.fram1'|translate}}</h5>
+            <h5>{{'technos.fram1'|translate}}</h5>
             <p>{{'technos.content1_0'|translate}}</p>
             <p>{{'technos.content1_1'|translate}}</p>
         </div>
         <mat-divider vertical="true"></mat-divider>
         <div class="col-12 col-xl-3 py-3">
             <h4>{{'technos.tech2'|translate}}</h4>
-            <h5>Framework: {{'technos.fram2'|translate}}</h5>
+            <h5>{{'technos.fram2'|translate}}</h5>
             <p>{{'technos.content2_0'|translate}}</p>
             <p>{{'technos.content2_1'|translate}}</p>
         </div>
@@ -92,7 +92,7 @@
             </div>
             <div class="col-12 col-lg-4 p-3 text-center">
                 <a href="https://www.hn-services.com/fr/" target="_blank">
-                    <img class="w-75" src="../../assets/img/HNgroup.png" alt="HNgroupLogo" />
+                    <img class="w-75" [src]="imgList[1]" alt="HNgroupLogo" />
                 </a>
             </div>
             <div class="col-12 col-lg-8 p-3">
@@ -109,7 +109,7 @@
             </div>
             <div class="col-12 col-lg-4 p-3 text-center">
                 <a href="https://fr.elis.com/fr" target="_blank">
-                    <img class="w-75" src="../../assets/img/ELIS.svg" alt="ElisLogo" />
+                    <img class="w-75" [src]="imgList[0]" alt="ElisLogo" />
                 </a>
             </div>
             <div class="col-12 col-lg-8 p-3">
@@ -201,10 +201,10 @@
             </div>
             <div class="col-12">
                 <a class="px-2" href="https://www.linkedin.com/in/oscar-soccol-335465b1/" target="_blank">
-                    <img src="../../assets/icons/linkedin.svg" alt="linkedInIcon" class="align-top">
+                    <img [src]="contactIconList[0]" alt="linkedInIcon" class="align-top">
                 </a>
                 <a class="px-2" href="https://github.com/osoccol/oscar-soccol/" target="_blank">
-                    <img src="../../assets/icons/github.svg" alt="githubIcon" class="align-top">
+                    <img [src]="contactIconList[1]" alt="githubIcon" class="align-top">
                 </a>
             </div>
         </div>
