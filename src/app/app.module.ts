@@ -6,7 +6,8 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
 import { OscoComponent } from './osco/osco.component';
-import {MatDividerModule} from '@angular/material/divider';
+import { MatDividerModule } from '@angular/material/divider';
+import { environment } from 'src/environments/environment';
 
 @NgModule({
   declarations: [
@@ -33,5 +34,6 @@ export class AppModule { }
 
 // required for AOT compilation
 export function HttpLoaderFactory(http: HttpClient): TranslateHttpLoader {
-  return new TranslateHttpLoader(http);
+  return new TranslateHttpLoader(http,
+    environment.path + 'assets/i18n/');
 }
