@@ -1,0 +1,80 @@
+{
+    "header": {
+        "name": "Oscar Soccol",
+        "job": "Desarrollador Web",
+        "line1": "Dedicado a las",
+        "link1": "buenas prácticas",
+        "line2": "Trabajando para la",
+        "link2": "tecnología sustentable",
+        "colors": "Contraste de color",
+        "lang": "Idioma",
+        "audio": "Descripción de audio"
+    },
+    "technos": {
+        "title": "Tecnologías",
+        "tech1": "TypeScript",
+        "fram1": "Angular",
+        "content1_0": "Lenguaje de código abierto construido sobre las bases de JavaScript, el lenguaje más utilizado en la Web.",
+        "content1_1": "Angular permite la creación de aplicaciones web que agilizan la experiencia del usuario gracias a una excelente gestión de datos y eventos.",
+        "tech2": "Java",
+        "fram2": "Spring",
+        "content2_0": "Desde 1995, Java está en todas partes y ha influido en muchos lenguajes. Dominando Java puedo programar en cualquier lenguaje orientado a objetos.",
+        "content2_1": "Para aligerar el código Java, el marco Spring es ideal en particular para la configuración de entornos y la gestión de datos.",
+        "tech3": "Bootstrap",
+        "fram3": "",
+        "content3_0": "Extremadamente popular en los últimos años en la comunidad de desarrolladores, Bootstrap ahorra tiempo en la codificación visual.",
+        "content3_1": "Adecuado para JavaScript, lo he utilizado durante más de un año. Asociado a Angular permite aligerar el código, lo que facilita la lectura y la mantenibilidad de los componentes."
+    },
+    "experiences": {
+        "title": "Experiencias",
+        "company1": {
+            "name" : "ELIS",
+            "mission": "GLAD - Global Logistics Assistance for Deliveries",
+            "content": "Desarrollo de una aplicación global desplegada en 27 países. La misión consistió en la creación de una aplicación de orientación al conductor, así como una solución basada en la web para rastrear y optimizar las rutas de entrega. El entorno técnico fue, entre otras cosas, compuesto por una arquitectura de microservicios implementada en AZURE Cloud de Microsoft, una base de datos Postgres que procesa 3M de solicitudes/día, un monitoreo cartográfico a través de la API HereMaps.",
+            "comment": {
+                "name": "Imen A.",
+                "job": "Product Owner",
+                "content": "A lo largo de su colaboración en el desarrollo del producto, Oscar ha demostrado ser un desarrollador muy talentoso que se siente cómodo con las tecnologías utilizadas. Fue una fuerza de propuesta y su búsqueda de soluciones siempre fue minuciosa y relevante. Su participación le permitió no solo desarrollar habilidades técnicas sino también aprender a evolucionar en un contexto empresarial complejo con muchos desafíos y conocer la metodología ágil que facilita el trabajo en este tipo de contextos."
+            }
+        },
+        "company2": {
+            "name" : "HN Servicios",
+            "mission": "",
+            "content": "2 Años de colaboración con el Grupo HN a los que debo mi éxito. Me contrataron después de mis estudios de ingeniería y luego me capacitaron internamente durante 6 meses en nuevas tecnologías en Java. Allí aprendí el aspecto técnico de la profesión como desarrollador y pude participar en la implementación de un proyecto a gran escala, desde la redacción de las especificaciones técnicas y funcionales hasta la entrega de la solución. Los proyectos con la empresa me permitieron desarrollar mis habilidades y aplicar mis conocimientos. Crecí durante esta experiencia gracias a los equipos de HN que confiaron en mí.",
+            "comment": {
+                "name": "Stéphane S.",
+                "job": "Director del Proyecto",
+                "content": "Oscar participó durante 15 meses en un proyecto técnico y funcional a gran escala. Invirtió mucho en aprender nuevas tecnologías que dominó rápidamente. Pudo adquirir una base técnica sólida, participar en un proyecto desde cero, seguir la metodología adecuada, aportando sus valores y empatía."
+            }
+        }
+    },
+    "practices": {
+        "title": "Buenas prácticas",
+        "subject1": "Normas de código",
+        "content1": "Escribir y mantener un archivo de estándares de código es fundamental para compartirlo con un equipo o para futuros desarrolladores.",
+        "subject2": "Revisión de código",
+        "content2": "Al dedicar 1 hora a la semana a este ejercicio, se identifican en promedio el 65% de las fallas presentes en el código.",
+        "subject3": "Estrategia de pruebas automatizadas",
+        "content3": "TDD o BDD, lo importante es tener una estrategia de pruebas que cubra completamente su código, esto mejora la calidad y su capacidad de mantenimiento."
+    },
+    "responsible": {
+        "title": "Sustentabilidad Digital",
+        "content1": "Su objetivo es reducir la huella ecológica y la fractura social de las tecnologías de la información y de la comunicación.",
+        "content2": "El 10% de la electricidad producida en el mundo se consume digitalmente. En esta era de transmisión, correos electrónicos automáticos y recopilación de datos, es necesario actuar para limitar su impacto.",
+        "content3": "Esto requiere un cambio de mentalidad y una reorganización de los servicios digitales que tienden a ser más sobrios y accesibles.",
+        "content4": "La tecnología digital también tiene impactos económicos y políticos, los invito a descubrir más.",
+        "button": "Más información"
+    },
+    "contact": {
+        "title": "Contáctame Para",
+        "line1": "Propuestas interesantes",
+        "line2": "Desafíos originales",
+        "line3": "Mejorar su código",
+        "email": "oscar.soccol@gmail.com",
+        "phone": "06.47.02.29.80",
+        "linkedIn": "LinkedIn"
+    },
+    "audio": {
+        "message": "Su navegador no es compatible con el elemento de audio."
+    }
+}

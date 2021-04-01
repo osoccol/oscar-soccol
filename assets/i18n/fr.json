@@ -1,0 +1,80 @@
+{
+    "header": {
+        "name": "Oscar Soccol",
+        "job": "Développeur Web",
+        "line1": "Soucieux des",
+        "link1": "bonnes pratiques du web",
+        "line2": "J'agis pour un",
+        "link2": "numérique responsable",
+        "colors": "Contraste de couleurs",
+        "lang": "Langage",
+        "audio": "Audio description"
+    },
+    "technos": {
+        "title": "Technologies",
+        "tech1": "TypeScript",
+        "fram1": "Angular",
+        "content1_0": "TypeScript est un langage open-source construit sur les bases du langage le plus répandu sur le Web: JavaScript.",
+        "content1_1": "Angular permet la création d'applications Web fluidifiant l'expérience utilisateur grâce à une excellente gestion des données et des évènements.",
+        "tech2": "Java",
+        "fram2": "Spring",
+        "content2_0": "Depuis 1995 Java est partout et a influencé un bon nombre de langages. En maîtrisant Java je suis apte à programmer dans tout langage orienté objet.",
+        "content2_1": "Pour alléger le code Java, le framework Spring est idéal notamment pour la configuration des environnements et la gestion de la data.",
+        "tech3": "Bootstrap",
+        "fram3": "",
+        "content3_0": "Extrêmement populaire ces dernières années dans la communauté des développeurs, Bootstrap permet d'économiser du temps sur l'aspect visuel.",
+        "content3_1": "Je l'utilise depuis plus d'un an car il est adapté pour le JavaScript. Associé à Angular il permet d'alléger le code ce qui facilite la lecture et la maintenabilité des composants."
+    },
+    "experiences": {
+        "title": "Expériences",
+        "company1": {
+            "name" : "ELIS",
+            "mission": "GLAD - Global Logistics Assistance for Deliveries",
+            "content": "Developpement d'une application de portée mondiale déployée dans 27 pays. La mission consistait à la création d'une appli de guidage des chauffeurs ainsi qu’une solution Web de suivi et d’optimisation des tournées de livraison. L'environnement technique était, entre autres, composé d'une architecture en micro services déployée sur le Cloud AZURE de Microsoft, d'une base de données Postgres traitant 3M de requêtes/jour, un suivi cartographique via l'API HereMaps.",
+            "comment": {
+                "name": "Imen A.",
+                "job": "Product Owner",
+                "content": "Tout au long de sa collaboration au développement du produit, Oscar s’est révélé être un développeur très doué et à l'aise avec les technologies utilisées. Il était force de proposition et ses recherches de solutions étaient toujours minutieuses et pertinentes. Sa participation lui a permis non seulement de développer des compétences techniques mais aussi d'apprendre à évoluer dans un contexte métier complexe avec beaucoup de challenges et de s'initier à la méthodologie agile qui facilite le travail dans ce genre de contexte."
+            }
+        },
+        "company2": {
+            "name" : "HN Services",
+            "mission": "",
+            "content": "2 ans de collaboration avec le Groupe HN à qui je dois ma réussite. J'ai été recruté à la suite de mes études en ingénierie puis j'ai été formé en interne pendant 6 mois aux nouvelles technologies autour de Java. J'y ai appris l'aspect technique du métier de développeur et j'ai pu participer à la mise en place d'un projet d'envergure, de la rédaction des spécifications techniques et fonctionnelles à la livraison de la solution. Les projets avec l'entreprise m'ont permis de monter en compétences et d'appliquer mes connaissances. Je me suis épanoui lors de cette expérience grâce aux équipes d'HN qui m'ont fait confiance.",
+            "comment": {
+                "name": "Stéphane S.",
+                "job": "Directeur de Projet",
+                "content": "Oscar a participé durant 15 mois à un projet d’envergure techniquement et fonctionnellement. Il s’est investi grandement dans l’apprentissage de nouvelles technologies qu’il a rapidement maîtrisées. Il a pu acquérir une base technique solide, participer à un projet from scratch, suivre la méthodologie adaptée, en apportant ses valeurs et son empathie."
+            }
+        }
+    },
+    "practices": {
+        "title": "Bonnes Pratiques",
+        "subject1": "Standards de code",
+        "content1": "L'écriture et la maintenance d'un fichier de standards de programmation sont fondamentales pour partager son code en équipe ou pour les futurs développeurs.",
+        "subject2": "Revue de code",
+        "content2": "En consacrant 1h par semaine à cet exercice, on repère en moyenne 65% des défauts présents dans code.",
+        "subject3": "Stratégie de Tests Automatisés",
+        "content3": "TDD ou BDD, l'important est d'avoir une stratégie de tests couvrant intégralement son code. Cela améliore la qualité du code et sa maintenabilité."
+    },
+    "responsible": {
+        "title": "Le Numérique Responsable",
+        "content1": "Il vise à réduire l'empreinte écologique et la fracture sociale des technologies de l'information et de la communication.",
+        "content2": "10% de l'électricité produite dans le monde est consommée par le numérique. À l'heure du streaming, des mails automatiques et de la collection des données, il est nécessaire d'agir pour limiter son impact.",
+        "content3": "Cela passe par un changement des mentalités et une réorganisation des services numériques qui tendent à être plus sobres et plus accessibles.",
+        "content4": "Le numérique a aussi des impacts économiques et politiques, je vous invite à en découvrir davantage en cliquant sur le lien ci-dessous.",
+        "button": "En savoir plus"
+    },
+    "contact": {
+        "title": "Contactez moi pour",
+        "line1": "L'amélioration de votre code",
+        "line2": "Des propositions excitantes",
+        "line3": "Des challenges originaux",
+        "email": "oscar.soccol@gmail.com",
+        "phone": "06.47.02.29.80",
+        "linkedIn": "LinkedIn"
+    },
+    "audio": {
+        "message": "Votre navigateur n'est pas compatible avec le lecteur audio."
+    }
+}
