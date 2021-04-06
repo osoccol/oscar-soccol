@@ -13,6 +13,7 @@ export class UrlsService {
             environment.path +'assets/icons/contrast',
             environment.path + 'assets/icons/translate',
             environment.path + 'assets/icons/soundwave',
+            environment.path + 'assets/icons/arrow',
         ]
     }
 

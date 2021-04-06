@@ -11,7 +11,7 @@ export class AppComponent {
   langList: string[] = ['en', 'es', 'fr'];
 
   constructor(private translate: TranslateService) {
-    translate.setDefaultLang(translate.getBrowserLang());
+    translate.setDefaultLang(this.langList.includes(translate.getBrowserLang()) ? translate.getBrowserLang() : 'en');
     translate.addLangs(this.langList);
   }
 }

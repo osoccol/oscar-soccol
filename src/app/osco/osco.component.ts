@@ -20,6 +20,10 @@ export class OscoComponent implements OnInit {
   contrastSelect: boolean = false;
   audioSelect: boolean = false;
 
+  // scrolling limits
+  isScrollBelowExperiences: boolean = false;
+  experiencesOffset: number = 0;
+
   // load and save the path of assets
   iconUrlList: string[] = [];
   iconList: string[] = [];
@@ -48,6 +52,14 @@ export class OscoComponent implements OnInit {
     this.audioSource = this.audioService.getAudioSourceList(this.translate.defaultLang);
     this.iconList = this.setIconList();
     this.flagList = this.setFlagList();
+    this.setOffsets();
+  }
+
+  setOffsets() {
+    let expRowElement = document.getElementById('experiences');
+    if (expRowElement) {
+      this.experiencesOffset = expRowElement.offsetTop + window.innerHeight;
+    }
   }
 
   setIconList(color?: string): string[] {
@@ -99,8 +111,9 @@ export class OscoComponent implements OnInit {
 
   onScroll(event: any): void {
     let scrollTop = event.target.scrollingElement.scrollTop;
+    this.isScrollBelowExperiences = scrollTop > this.experiencesOffset;
     this.fadeInElementIdList.forEach((elementId) => {
       this.animationService.setAnimation(elementId, 'fade-in', scrollTop);
-    })
+    });
   }
 }

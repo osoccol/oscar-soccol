@@ -1,11 +1,8 @@
 <div class="container-fluid text-center header py-5" (window:scroll)="onScroll($event)"
-    [ngClass]="contrastSelect ? 'contrasted' : ''">
-    <h1 class="name m-0">{{'header.name'|translate}}</h1>
-    <h3 class="job">{{'header.job'|translate}}</h3>
-    <p class="m-0 text-center">{{'header.line1'|translate}} <a href="#practices">{{'header.link1'|translate}}</a></p>
-    <p class=" text-center">{{'header.line2'|translate}} <a href="#responsible">{{'header.link2'|translate}}</a></p>
-    <div class="container">
-        <div class="row w-75 m-auto rowIcons p-3 fade-in" *ngIf="!langSelect">
+    [ngClass]="contrastSelect ? 'contrasted' : ''"
+    id="header">
+    <div class="container" id="icons">
+        <div class="row w-75 m-auto rowIcons p-3" *ngIf="!langSelect">
             <div class="col-4">
                 <div class="headerIcons m-auto" title="{{'header.colors'|translate}}" (click)="onContrastChange()"
                     [ngStyle]="{'background-image': iconList[0]}"></div>
@@ -32,6 +29,10 @@
             </div>
         </div>
     </div>
+    <h1 class="name mt-5">{{'header.name'|translate}}</h1>
+    <h3 class="job">{{'header.job'|translate}}</h3>
+    <p class="m-0 text-center">{{'header.line1'|translate}} <a href="#practices">{{'header.link1'|translate}}</a></p>
+    <p class=" text-center">{{'header.line2'|translate}} <a href="#responsible">{{'header.link2'|translate}}</a></p>
     
     <div class="row text-center pt-3" *ngIf="audioSelect">
         <audio class="m-auto" controls preload="none" controlsList="nodownload">
@@ -73,7 +74,7 @@
         </div>
     </div>
 </div>
-<div class="container-fluid experiences" [ngClass]="contrastSelect ? 'contrasted' : ''">
+<div class="container-fluid experiences" id="experiences" [ngClass]="contrastSelect ? 'contrasted' : ''">
     <div class="container">
         <div class="row pt-5 text-center">
             <div class="col-12">
@@ -210,3 +211,7 @@
         </div>
     </div>
 </div>
+<a href="#header" *ngIf="isScrollBelowExperiences" [ngClass]="contrastSelect ? 'contrasted' : ''">
+    <div id="backToTopBtn" class="headerIcons" [ngStyle]="{'background-image': iconList[3]}">
+    </div>
+</a>
