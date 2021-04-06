@@ -11,6 +11,16 @@
     opacity: 0.5;
 }
 
+#icons {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: auto;
+    min-width: 100vw;
+    z-index: 2;
+    background-color: white;
+}
+
 .rowIcons {
     display: flex;
     flex-direction: row;
@@ -30,6 +40,10 @@
 .flag {
     background-size: cover;
     background-position: center;
+}
+
+#icons .contrasted {
+    background-color: black !important;
 }
 
 .technos, #practices, .contact {
@@ -58,6 +72,12 @@
     border-radius: 5px;
 }
 
+#backToTopBtn {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+}
+
 
 /** For audio styles **/
 audio {
@@ -66,7 +86,8 @@ audio {
 
 /** For contrasted styles **/
 .contrasted,
-.contrasted #practices {
+.contrasted #practices,
+.contrasted #icons {
     background-color: black !important;
 }
 
@@ -83,6 +104,7 @@ audio {
     font-weight: bold;
 }
 
+.contrasted #backToTopBtn,
 .contrasted .headerIcons {
     border: 2px solid white;
 }
@@ -109,4 +131,10 @@ audio {
     vertical-align: bottom;
     color: black;
     background-color: white;
+}
+
+@media (max-width: 1300px) {
+    #backToTopBtn {
+        visibility: hidden;
+    }
 }
