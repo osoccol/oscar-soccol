@@ -18,19 +18,19 @@
         "content1_1": "Angular permet la création d'applications Web fluidifiant l'expérience utilisateur grâce à une excellente gestion des données et des évènements.",
         "tech2": "Java",
         "fram2": "Spring",
-        "content2_0": "Depuis 1995 Java est partout et a influencé un bon nombre de langages. En maîtrisant Java je suis apte à programmer dans tout langage orienté objet.",
+        "content2_0": "Depuis 1995 Java est partout et a influencé un bon nombre de langages. La maîtrise de Java permet de programmer dans tout langage orienté objet.",
         "content2_1": "Pour alléger le code Java, le framework Spring est idéal notamment pour la configuration des environnements et la gestion de la data.",
         "tech3": "Bootstrap",
         "fram3": "",
-        "content3_0": "Extrêmement populaire ces dernières années dans la communauté des développeurs, Bootstrap permet d'économiser du temps sur l'aspect visuel.",
-        "content3_1": "Je l'utilise depuis plus d'un an car il est adapté pour le JavaScript. Associé à Angular il permet d'alléger le code ce qui facilite la lecture et la maintenabilité des composants."
+        "content3_0": "Avec sa popularité en constante évolution, Bootstrap permet d'économiser du temps sur l'aspect visuel des sites.",
+        "content3_1": "Adapté pour le JavaScript, il est un outil idéal pour les développeurs front-end. Il permet d'alléger le code ce qui facilite la lecture et la maintenabilité des composants."
     },
     "experiences": {
         "title": "Expériences",
         "company1": {
             "name" : "ELIS",
             "mission": "GLAD - Global Logistics Assistance for Deliveries",
-            "content": "Developpement d'une application de portée mondiale déployée dans 27 pays. La mission consistait à la création d'une appli de guidage des chauffeurs ainsi qu’une solution Web de suivi et d’optimisation des tournées de livraison. L'environnement technique était, entre autres, composé d'une architecture en micro services déployée sur le Cloud AZURE de Microsoft, d'une base de données Postgres traitant 3M de requêtes/jour, un suivi cartographique via l'API HereMaps.",
+            "content": "J'ai participé au développement d'une application de portée mondiale déployée dans 27 pays. La mission consistait à la création d'une appli de guidage des chauffeurs ainsi qu’une solution Web de suivi et d’optimisation des tournées de livraison. L'environnement technique était, entre autres, composé d'une architecture en micro services déployée sur le Cloud AZURE de Microsoft, d'une base de données Postgres traitant 3M de requêtes/jour, un suivi cartographique via l'API HereMaps.",
             "comment": {
                 "name": "Imen A.",
                 "job": "Product Owner",
@@ -40,7 +40,7 @@
         "company2": {
             "name" : "HN Services",
             "mission": "",
-            "content": "2 ans de collaboration avec le Groupe HN à qui je dois ma réussite. J'ai été recruté à la suite de mes études en ingénierie puis j'ai été formé en interne pendant 6 mois aux nouvelles technologies autour de Java. J'y ai appris l'aspect technique du métier de développeur et j'ai pu participer à la mise en place d'un projet d'envergure, de la rédaction des spécifications techniques et fonctionnelles à la livraison de la solution. Les projets avec l'entreprise m'ont permis de monter en compétences et d'appliquer mes connaissances. Je me suis épanoui lors de cette expérience grâce aux équipes d'HN qui m'ont fait confiance.",
+            "content": "Durant 2 ans j'ai collaboré avec le Groupe HN à qui je dois ma réussite. J'ai été recruté à la suite de mes études en ingénierie puis j'ai été formé en interne pendant 6 mois aux nouvelles technologies autour de Java. J'y ai appris l'aspect technique du métier de développeur et j'ai pu participer à la mise en place d'un projet d'envergure, de la rédaction des spécifications techniques et fonctionnelles à la livraison de la solution. Les projets avec l'entreprise m'ont permis de monter en compétences et d'appliquer mes connaissances. Je me suis épanoui lors de cette expérience grâce aux équipes d'HN qui m'ont fait confiance.",
             "comment": {
                 "name": "Stéphane S.",
                 "job": "Directeur de Projet",
@@ -51,25 +51,25 @@
     "practices": {
         "title": "Bonnes Pratiques",
         "subject1": "Standards de code",
-        "content1": "L'écriture et la maintenance d'un fichier de standards de programmation sont fondamentales pour partager son code en équipe ou pour les futurs développeurs.",
+        "content1": "L'écriture et la maintenance d'un fichier de standards de programmation sont fondamentales pour partager son code en équipe ou pour les futurs développeurs. Il faut faire vivre ce fichier en l'améliorant, sans modifier ses fondations.",
         "subject2": "Revue de code",
-        "content2": "En consacrant 1h par semaine à cet exercice, on repère en moyenne 65% des défauts présents dans code.",
+        "content2": "En consacrant 1h par semaine à cet exercice, on repère en moyenne 65% des défauts présents dans code. En plus d'améliorer la qualité du code on améliore sa propriété collective, c'est à dire sa connaissance plusieurs personnes.",
         "subject3": "Stratégie de Tests Automatisés",
-        "content3": "TDD ou BDD, l'important est d'avoir une stratégie de tests couvrant intégralement son code. Cela améliore la qualité du code et sa maintenabilité."
+        "content3": "TDD ou BDD, l'important est d'avoir une stratégie de tests couvrant intégralement son code. Cela améliore la qualité du code et sa maintenabilité. Je m'engage à couvrir au minimum 90% de mon code en toute circonstance."
     },
     "responsible": {
         "title": "Le Numérique Responsable",
         "content1": "Il vise à réduire l'empreinte écologique et la fracture sociale des technologies de l'information et de la communication.",
-        "content2": "10% de l'électricité produite dans le monde est consommée par le numérique. À l'heure du streaming, des mails automatiques et de la collection des données, il est nécessaire d'agir pour limiter son impact.",
-        "content3": "Cela passe par un changement des mentalités et une réorganisation des services numériques qui tendent à être plus sobres et plus accessibles.",
+        "content2": "Aujourd'hui c'est 10% de l'électricité produite dans le monde qui est consommée par le numérique. À l'heure du streaming, des mails automatiques et de la collection des données, il est nécessaire d'agir pour limiter son impact. Au niveau social, on estime qu'entre 20 à 30% de la population a peu - ou voire pas - de compétences en informatique. Ceci créé de la fracture sociale et il est important d'inclure ces personnes dans la transition numérique en adaptant les services au plus grand nombre.",
+        "content3": "Cela passe par un changement des mentalités et une réorganisation des services numériques qui tendent à être plus sobres et plus accessibles. Je m'engage donc à appliquer les principes du Numérique Responsable pour mes projets et à encourager mes clients à suivre cette voie qui leur sera favorable en tout point.",
         "content4": "Le numérique a aussi des impacts économiques et politiques, je vous invite à en découvrir davantage en cliquant sur le lien ci-dessous.",
         "button": "En savoir plus"
     },
     "contact": {
         "title": "Contactez moi pour",
-        "line1": "L'amélioration de votre code",
-        "line2": "Des propositions excitantes",
-        "line3": "Des challenges originaux",
+        "line1": "Optimiser vos services",
+        "line2": "Des projets originaux",
+        "line3": "Améliorer votre code",
         "email": "oscar.soccol@gmail.com",
         "phone": "06.47.02.29.80",
         "linkedIn": "LinkedIn"
